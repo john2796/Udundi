@@ -1,0 +1,60 @@
+.johannes-plenio-bg {
+  background: url("../img/johannes-plenio-RwHv7LgeC7s-unsplash.png") no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.explore {
+  color: #ffffff;
+  font-family: "Essonnes Text - Bold";
+  font-weight: 700;
+  letter-spacing: 5.6px; }
+
+.rectangle {
+  width: 413px;
+  height: 100vh;
+  background-color: #611818;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+.more-details {
+  color: #ffffff;
+  font-family: Arial;
+  letter-spacing: 0.62px; }
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+/* Small devices (IphoneX) */
+@media (min-width: 375px) {
+  .explore {
+    font-size: 80px; } }
+
+@media (min-width: 544px) {
+  .explore {
+    font-size: 120px; } }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .explore {
+    font-size: 155px; }
+  .more-details {
+    font-size: 16px; } }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .explore {
+    font-size: 200px; }
+  .more-details {
+    font-size: 20px; } }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .explore {
+    font-size: 224px; }
+  .more-details {
+    font-size: 25px; } }
