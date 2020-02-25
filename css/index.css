@@ -6,12 +6,6 @@
 .johannes-plenio-bg {
   background: url(../img/johannes-plenio-RwHv7LgeC7s-unsplash.png) no-repeat
     center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  /* max-width: 1536px;
-  min-height: 1024px; */
   width: 1536px;
   height: 1024px;
 }
@@ -29,7 +23,6 @@
   position: relative;
   z-index: 9999;
   padding: 511px 0 0 160px;
-  display: none;
 }
 .explore {
   width: 793px;
@@ -133,4 +126,8 @@
   display: flex;
   justify-content: flex-end;
   padding-bottom: 43px;
+}
+
+button:focus {
+  outline: 0;
 }
