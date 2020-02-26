@@ -32,7 +32,7 @@ Thank you Udundi Team for giving me a chance to do your coding challenge.
 
 #### How to run the app
 
-1. Either fork using [https://github.com/john2796/personal-portfolio.git](https://github.com/john2796/personal-portfolio.git) or download the app and open the folder in the cli
+1. Either fork using [https://github.com/john2796/Udundi.git](https://github.com/john2796/Udundi.git) or download the app and open the folder in the cli
 2. [`yarn install`](https://classic.yarnpkg.com/en/docs/cli/install) : installs all the dependencies defined in a <span style="color:red">package.json</span> file. for more information about yarn [click here](https://classic.yarnpkg.com/en/docs/cli/)
 3. `npm start` or `yarn start` Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
    This page will automatically reload if you make changes to the code. You will see the build errors and lint warnings in the console.
