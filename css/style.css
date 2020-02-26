@@ -120,7 +120,8 @@ button:focus {
     margin-top: -1rem;
     margin-left: -5px; }
   .plus-btn {
-    width: 30px; }
+    width: 30px;
+    height: 30px; }
   .social-icons {
     width: 58px; } }
 
@@ -131,7 +132,8 @@ button:focus {
     margin-top: -2rem;
     margin-left: -5px; }
   .plus-btn {
-    width: 30px; }
+    width: 30px;
+    height: 30px; }
   .social-icons {
     width: 58px; } }
 
