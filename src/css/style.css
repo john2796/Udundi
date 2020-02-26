@@ -24,6 +24,67 @@
   font-family: Arial;
   letter-spacing: 0.62px; }
 
+.explore-card {
+  z-index: 9999;
+  max-width: 580px;
+  height: 702px;
+  box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff; }
+
+.explore-title {
+  color: #611818;
+  font-family: "Essonnes Text - Bold";
+  font-weight: 700;
+  letter-spacing: 1.65px;
+  font-size: 66px; }
+
+.explore-card p {
+  color: #505050;
+  font-family: Arial;
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  line-height: 30px;
+  padding-bottom: 42px; }
+
+.explore-btn {
+  width: 235px;
+  height: 55px;
+  border: 1px solid #979797;
+  background-image: linear-gradient(to right, #611818 0%, #a36754 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer; }
+
+.explore-btn span {
+  width: 125px;
+  height: 21px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 18px;
+  letter-spacing: 1.69px;
+  text-transform: uppercase; }
+
+.explore-close-btn {
+  z-index: 99999;
+  width: 22px;
+  height: 22px;
+  border: none;
+  width: 97%;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 43px; }
+
+button:focus {
+  outline: 0; }
+
+.more-details-button {
+  background: transparent;
+  border: none; }
+
+.nounderline {
+  text-decoration: none !important; }
+
 /*
 ####################################################
 M E D I A  Q U E R I E S
@@ -50,7 +111,7 @@ M E D I A  Q U E R I E S
   .explore {
     font-size: 200px; }
   .more-details {
-    font-size: 20px; } }
+    font-size: 25px; } }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
