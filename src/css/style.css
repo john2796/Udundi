@@ -46,7 +46,6 @@
 .explore-card {
   z-index: 9999;
   max-width: 580px;
-  height: 702px;
   box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.3);
   background-color: #ffffff; }
 
@@ -120,8 +119,7 @@ button:focus {
     margin-top: -1rem;
     margin-left: -5px; }
   .plus-btn {
-    width: 30px;
-    height: 30px; }
+    width: 40px; }
   .social-icons {
     width: 58px; } }
 
@@ -132,8 +130,7 @@ button:focus {
     margin-top: -2rem;
     margin-left: -5px; }
   .plus-btn {
-    width: 30px;
-    height: 30px; }
+    width: 40px; }
   .social-icons {
     width: 58px; } }
 
