@@ -1,5 +1,6 @@
 $(".modal").each(function(index) {
   $(this).on("show.bs.modal", function(e) {
+    $(".toggleContent").hide()
     var open = $(this).attr("data-easein")
     if (open == "shake") {
       $(".modal-dialog").velocity("callout." + open)
@@ -17,4 +18,8 @@ $(".modal").each(function(index) {
       $(".modal-dialog").velocity("transition." + open)
     }
   })
+})
+// ------ USING THIS TO TOGGLE THE CONTENT WHEN MODAL IS SHOW/HIDE ------
+$(".modal").on("hide.bs.modal", function(e) {
+  $(".toggleContent").show()
 })

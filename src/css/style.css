@@ -1,3 +1,13 @@
+/*
+####################################################
+             COLORS VARIABLE
+####################################################
+*/
+/*
+####################################################
+             B A C K G R O U N D  & MAIN CONTENT
+####################################################
+*/
 .johannes-plenio-bg {
   background: url("../img/johannes-plenio-RwHv7LgeC7s-unsplash.png") no-repeat;
   min-height: 100vh;
@@ -24,6 +34,15 @@
   font-family: Arial;
   letter-spacing: 0.62px; }
 
+.more-detail-button-wrapper {
+  margin-top: -3rem;
+  margin-left: 4rem; }
+
+/*
+####################################################
+            EXPLORE MODAL CARD
+####################################################
+*/
 .explore-card {
   z-index: 9999;
   max-width: 580px;
@@ -75,6 +94,9 @@
   justify-content: flex-end;
   padding-bottom: 43px; }
 
+.explore-close-btn img {
+  cursor: pointer; }
+
 button:focus {
   outline: 0; }
 
@@ -87,31 +109,53 @@ button:focus {
 
 /*
 ####################################################
-M E D I A  Q U E R I E S
+            M E D I A  Q U E R I E S
 ####################################################
 */
 /* Small devices (IphoneX) */
 @media (min-width: 375px) {
   .explore {
-    font-size: 80px; } }
+    font-size: 80px; }
+  .more-detail-button-wrapper {
+    margin-top: -1rem;
+    margin-left: -5px; }
+  .plus-btn {
+    width: 30px; }
+  .social-icons {
+    width: 58px; } }
 
 @media (min-width: 544px) {
   .explore {
-    font-size: 120px; } }
+    font-size: 120px; }
+  .more-detail-button-wrapper {
+    margin-top: -2rem;
+    margin-left: -5px; }
+  .plus-btn {
+    width: 30px; }
+  .social-icons {
+    width: 58px; } }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .explore {
     font-size: 155px; }
   .more-details {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .more-detail-button-wrapper {
+    margin-left: 1rem; }
+  .plus-btn {
+    width: 43px; }
+  .social-icons {
+    width: 68px; } }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   .explore {
     font-size: 200px; }
   .more-details {
-    font-size: 25px; } }
+    font-size: 25px; }
+  .more-detail-button-wrapper {
+    margin-left: 2rem; } }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
