@@ -4,7 +4,8 @@
   "description": "Udundi Coding Challenge",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "build": "gulp build"
   },
   "author": "John Miranda",
   "license": "MIT",
